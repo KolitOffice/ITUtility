@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2CC90E1BBE67AA0023150F /* ITUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CC90D1BBE67AA0023150F /* ITUtility.swift */; settings = {ASSET_TAGS = (); }; };
 		8AFFB3191BBE60EC0094576C /* ITUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFFB3181BBE60EC0094576C /* ITUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AFFB3201BBE60EC0094576C /* ITUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFFB3151BBE60EC0094576C /* ITUtility.framework */; settings = {ASSET_TAGS = (); }; };
 		8AFFB3251BBE60EC0094576C /* ITUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFB3241BBE60EC0094576C /* ITUtilityTests.swift */; };
+		FC1975FD7C72894A70F66734 /* Pods_ITUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9F4BD437CDBC74C1C82B0B /* Pods_ITUtility.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4380EB28F9935E353C09E716 /* Pods-ITUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITUtility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITUtility/Pods-ITUtility.debug.xcconfig"; sourceTree = "<group>"; };
+		5B20E4E9A25D49570F797BC3 /* Pods-ITUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITUtility.release.xcconfig"; path = "Pods/Target Support Files/Pods-ITUtility/Pods-ITUtility.release.xcconfig"; sourceTree = "<group>"; };
+		8A2CC90D1BBE67AA0023150F /* ITUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITUtility.swift; sourceTree = "<group>"; };
 		8AFFB3151BBE60EC0094576C /* ITUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ITUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFFB3181BBE60EC0094576C /* ITUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITUtility.h; sourceTree = "<group>"; };
 		8AFFB31A1BBE60EC0094576C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AFFB31F1BBE60EC0094576C /* ITUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFFB3241BBE60EC0094576C /* ITUtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITUtilityTests.swift; sourceTree = "<group>"; };
 		8AFFB3261BBE60EC0094576C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9F4BD437CDBC74C1C82B0B /* Pods_ITUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1975FD7C72894A70F66734 /* Pods_ITUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		838D13AE67AF7BEE9D8511F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4380EB28F9935E353C09E716 /* Pods-ITUtility.debug.xcconfig */,
+				5B20E4E9A25D49570F797BC3 /* Pods-ITUtility.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8AFFB30B1BBE60EC0094576C = {
 			isa = PBXGroup;
 			children = (
 				8AFFB3171BBE60EC0094576C /* ITUtility */,
 				8AFFB3231BBE60EC0094576C /* ITUtilityTests */,
 				8AFFB3161BBE60EC0094576C /* Products */,
+				838D13AE67AF7BEE9D8511F8 /* Pods */,
+				A679F2E54CE7F3486F31BEC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +89,7 @@
 		8AFFB3171BBE60EC0094576C /* ITUtility */ = {
 			isa = PBXGroup;
 			children = (
+				8A2CC90D1BBE67AA0023150F /* ITUtility.swift */,
 				8AFFB3181BBE60EC0094576C /* ITUtility.h */,
 				8AFFB31A1BBE60EC0094576C /* Info.plist */,
 			);
@@ -84,6 +103,14 @@
 				8AFFB3261BBE60EC0094576C /* Info.plist */,
 			);
 			path = ITUtilityTests;
+			sourceTree = "<group>";
+		};
+		A679F2E54CE7F3486F31BEC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F4BD437CDBC74C1C82B0B /* Pods_ITUtility.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AFFB3291BBE60EC0094576C /* Build configuration list for PBXNativeTarget "ITUtility" */;
 			buildPhases = (
+				82D65F04AAAF54B039AB6092 /* Check Pods Manifest.lock */,
 				8AFFB3101BBE60EC0094576C /* Sources */,
 				8AFFB3111BBE60EC0094576C /* Frameworks */,
 				8AFFB3121BBE60EC0094576C /* Headers */,
 				8AFFB3131BBE60EC0094576C /* Resources */,
+				34E85E00DE7920B0BAECC0DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +171,7 @@
 		8AFFB30C1BBE60EC0094576C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Itsaraporn Chaichayanon";
 				TargetAttributes = {
@@ -188,11 +218,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34E85E00DE7920B0BAECC0DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ITUtility/Pods-ITUtility-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D65F04AAAF54B039AB6092 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AFFB3101BBE60EC0094576C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2CC90E1BBE67AA0023150F /* ITUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,29 +370,36 @@
 		};
 		8AFFB32A1BBE60EC0094576C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4380EB28F9935E353C09E716 /* Pods-ITUtility.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ITUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jarvissolution.ITUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8AFFB32B1BBE60EC0094576C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B20E4E9A25D49570F797BC3 /* Pods-ITUtility.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ITUtility/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jarvissolution.ITUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +446,7 @@
 				8AFFB32B1BBE60EC0094576C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AFFB32C1BBE60EC0094576C /* Build configuration list for PBXNativeTarget "ITUtilityTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +455,7 @@
 				8AFFB32E1BBE60EC0094576C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
